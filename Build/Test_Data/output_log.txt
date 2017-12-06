@@ -1,0 +1,71 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200  (ID=0x13ba)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   10.18.13.5887
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.132 seconds
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.521841 ms
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Users\darcy.astill1\Source\Repos\Inventory\Build\Test_Data\Managed\Boo.Lang.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: da24 -> priority: 1 
+  Thread -> id: d6cc -> priority: 1 
+IntegrationTest Started (PlayerCollidesWithPlatform)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IntegrationTest Pass (PlayerCollidesWithPlatform)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IntegrationTest Finished (PlayerCollidesWithPlatform)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IntegrationTest Started (PlayerDeactivatesOnTrigger)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IntegrationTest Pass (PlayerDeactivatesOnTrigger)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IntegrationTest Finished (PlayerDeactivatesOnTrigger)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Passed: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityTest.TestRunnerConfigurator.GetIntegrationTestScenes (Int32 testSceneNum) [0x00000] in <filename unknown>:0 
+  at UnityTest.TestRunner.LoadNextLevelOrQuit () [0x00000] in <filename unknown>:0 
+  at UnityTest.TestRunner.FinishTestRun () [0x00000] in <filename unknown>:0 
+  at UnityTest.TestRunner+<StateMachine>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
